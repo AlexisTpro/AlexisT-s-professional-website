@@ -1,0 +1,9 @@
+div {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: 0px; left:0px; right:0px;
+  background-image: linear-gradient(to right, cyan, purple);
+  min-height: 50px;
+}

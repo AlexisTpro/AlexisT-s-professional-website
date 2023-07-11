@@ -1,0 +1,49 @@
+body {
+  line-height: +35px;
+}
+
+h1.title {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-weight: bolder;
+  z-index: 2;
+}
+
+div.bg {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(191,244,255,1) 50%, rgba(140,236,255,0.8) 75%, rgba(0,212,255,0.9) 100%)
+}
+
+p.para {
+  margin-top: 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  z-index: 3;
+}
+
+ul {
+  margin-top: 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  z-index: 3;
+}
+
+a.bref  {
+  font-weight: bold;
+}
