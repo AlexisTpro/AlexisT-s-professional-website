@@ -81,7 +81,7 @@ table {
 
 h2.toggle {
   position: fixed;
-  top: 500px;
+  top: 425px;
   text-align: center;
   border-radius: 20px;
   border-width: 13px;
@@ -93,7 +93,7 @@ h2.toggle {
 
 table.summary {
   position: fixed;
-  top: 535px;
+  top: 475px;
   border-style: solid;
   border-radius: 20px;
   border-width: 3px;
