@@ -1,0 +1,229 @@
+body {
+  background-color: white;
+  margin-right: 50px;
+  font-family: Arial;
+}
+
+div.Social {
+  position: sticky;
+  float: left;
+  left: 35px;
+  right: 275px;
+  top: 325px;
+}
+
+div.top {
+    position: fixed;
+    top: 0px;
+    left: 330px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+    background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(191,244,255,1) 50%, rgba(140,236,255,0.8) 75%, rgba(0,212,255,0.9) 100%)
+}
+
+img.ill {
+    position: static;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    width: -webkit-fill-available;
+    display: block;
+}
+
+div.ill  {
+    position: absolute;
+    left: 330px;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    width: -webkit-fill-available;
+}
+
+div.basic_Law {
+  position: relative;
+  z-index: 3;
+  margin-left: 365px;
+  margin-right: 25px;
+  line-height: +35px;
+}
+
+div.basic_Law h1 {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: bolder;
+}
+
+#select {
+  font-size: 20px;
+  text-align: left;
+  color: black;
+}
+
+#important-S #select {
+  color: white;
+}
+
+:hover#select {
+  transition: 0.1s;
+  opacity: 0.5;
+}
+
+
+table {
+  position: fixed;
+  top: 25px;
+  border-style: double ;
+  border-radius: 20px;
+  border-width: 13px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-color: black;
+  margin-left: 25px;
+  margin-top: 5px;
+  float: left;
+  max-width: 275px;
+}
+
+table.table {
+  position: fixed;
+  top: 25px;
+  border-style: double ;
+  border-radius: 20px;
+  border-width: 13px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-color: black;
+  margin-left: 25px;
+  margin-top: 5px;
+  float: left;
+  max-width: 275px;
+  max-height: 325px;
+}
+
+#pdp {
+  position: sticky;
+  float: left;
+  width: 240px;
+  border-radius: 25px;
+}
+
+h2.toggle {
+  position: fixed;
+  top: 425px;
+  text-align: center;
+  border-radius: 20px;
+  border-width: 13px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-color: black;
+  font-size: 20px;
+}
+
+table.summary {
+  position: fixed;
+  top: 475px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: black;
+  margin-left: 25px;
+  margin-top: 5px;
+  float: left;
+  min-width: 275px;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+#important-S {
+  position: relative;
+  font-size: 20px;
+  text-align: justify;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#important-S b {
+  font-weight: bolder;
+}
+
+#para {
+  margin-top: 1px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+ul {
+  margin-right: 100px;
+}
+
+#lesserTitle {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 50px;
+  font-weight: bolder;
+  font-size: 27px;
+  text-align: left;
+}
+
+#end {
+  position: absolute;
+  left: 0px; right: 0px;
+  background-color: #262626;
+  color: white;
+  z-index: 4;
+}
+
+div#end h2 {
+  text-align: center;
+  font-size: x-large;
+}
+
+div.note {
+  font-size: large;
+  color: lightgrey;
+  margin-left: 50px;
+}
+
+a.link {
+  color: white;
+  text-decoration: underline;
+}
+
+img.LI {
+  background-color: #00669c;
+}
+
+img.ID  {
+  outline-width: 1px;
+  outline-color: black;
+  outline-style: solid;
+}
+
+#l_Social1 {
+  position: relative;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  fi
+}
+
+:hover#l_Social1 {
+  transition: 0.2s;
+  transition-duration: 0.2s;
+  border-radius: 25%;
+}
+
+#factisse {
+  visibility: hidden;
+}
